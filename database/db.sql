@@ -8,6 +8,7 @@ CREATE TABLE cliente (
 
 CREATE TABLE animal (
     id_animal INT AUTO_INCREMENT PRIMARY KEY,
+    nome_animal VARCHAR(100) NOT NULL,
     tipo_animal VARCHAR(100) NOT NULL,
     raca_animal VARCHAR(100) NOT NULL,
     idade_animal DATE NOT NULL,
