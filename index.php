@@ -20,7 +20,7 @@ include "infra/conexao.php";
         Cadastrar Cliente
     </a>
 
-    <a href="public/cadastrar_animais.php">
+    <a href="public/cadastrar_animal.php">
         Cadastrar Animal
     </a>
 
