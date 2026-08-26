@@ -17,11 +17,11 @@ include "infra/conexao.php";
     <h1>Bem vindo! O que deseja fazer hoje?</h1>
 
     <a href="public/cadastrar_cliente.php">
-        Cadastrar Cliente
+        <button type="button">Cadastrar Cliente</button>
     </a>
 
     <a href="public/cadastrar_animal.php">
-        Cadastrar Animal
+        <button type="button">Cadastrar Animal</button>
     </a>
 
 </body>
