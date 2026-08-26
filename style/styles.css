@@ -1,14 +1,5 @@
-.menu {
-    text-align: center;
-    margin-top: 100px;
-}
-
-.botao {
-    display: inline-block;
+button {
     padding: 10px 20px;
-    margin: 10px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
 }

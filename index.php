@@ -20,12 +20,12 @@ include "infra/conexao.php";
         <h1>Bem-vindo!</h1>
         <h2>O que deseja fazer hoje?</h2>
 
-        <a class="botao" href="public/cadastrar_cliente.php">
-            Cadastrar Cliente
+        <a href="public/cadastrar_cliente.php">
+        <button type="button">Cadastrar Cliente</button>
         </a>
 
-        <a class="botao" href="public/cadastrar_animais.php">
-            Cadastrar Animal
+        <a href="public/cadastrar_animais.php">
+        <button type="button">Cadastrar Animal</button>
         </a>
 
     </div>
