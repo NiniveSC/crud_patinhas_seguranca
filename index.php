@@ -9,20 +9,26 @@ include "infra/conexao.php";
 
 <head>
     <meta charset="UTF-8">
-    <title>AUmigos Pet Shop</title>
+    <title>Patinhas com Segurança</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-    <h1>Bem vindo! O que deseja fazer hoje?</h1>
+    <div class="menu">
 
-    <a href="public/cadastrar_cliente.php">
-        <button type="button">Cadastrar Cliente</button>
-    </a>
+        <h1>Bem-vindo!</h1>
+        <h2>O que deseja fazer hoje?</h2>
 
-    <a href="public/cadastrar_animal.php">
-        <button type="button">Cadastrar Animal</button>
-    </a>
+        <a class="botao" href="public/cadastrar_cliente.php">
+            Cadastrar Cliente
+        </a>
+
+        <a class="botao" href="public/cadastrar_animais.php">
+            Cadastrar Animal
+        </a>
+
+    </div>
 
 </body>
 
